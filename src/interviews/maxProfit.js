@@ -1,4 +1,4 @@
-let maxProfit = function (prices) {
+const maxProfit = (prices) => {
   let calculationPrices = []
   prices.forEach((item, index) => {
     for (let i = index + 1; i < prices.length; i++) {
